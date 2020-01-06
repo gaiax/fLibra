@@ -1,0 +1,192 @@
+{
+  "options": [{
+    "value": "1",
+    "label": "Women",
+    "children": [{
+      "value": "11",
+      "label": "All"
+    }, {
+      "value": "12",
+      "label": "Tops"
+    }, {
+      "value": "13",
+      "label": "Shoes"
+    }]
+    }, {
+    "value": "2",
+    "label": "Men",
+    "children": [{
+      "value": "21",
+      "label": "All"
+    }, {
+      "value": "22",
+      "label": "Tops"
+    }, {
+      "value": "23",
+      "label": "Shoes"
+    }]
+    }, {
+    "value": "3",
+    "label": "Baby / Kids",
+    "children": [{
+      "value": "31",
+      "label": "Boys shirts"
+    }, {
+      "value": "32",
+      "label": "Girls shirts"
+    }, {
+      "value": "33",
+      "label": "Toy"
+    }, {
+      "value": "34",
+      "label": "Gear"
+    }, {
+      "value": "35",
+      "label": "Feeding"
+    }]
+    }, {  
+    "value": "4",
+    "label": "Home",
+    "children": [{
+      "value": "41",
+      "label": "Kitchen"
+    }, {
+      "value": "42",
+      "label": "Sofa"
+    }, {
+      "value": "43",
+      "label": "Chain"
+    }, {
+      "value": "44",
+      "label": "Desk"
+    }, {
+      "value": "45",
+      "label": "Furniture"
+    }]
+    }, {   
+    "value": "5",
+    "label": "Toy・Hobby",
+    "children": [{
+      "value": "51",
+      "label": "Toy"
+    }, {
+      "value": "52",
+      "label": "Anime goods"
+    }, {
+      "value": "53",
+      "label": "Trading cards"
+    }, {
+      "value": "54",
+      "label": "Art"
+    }, {
+      "value": "55",
+      "label": "Vintage"
+    }]  
+  }],
+  "categoryList": [{
+    "value": "1",
+    "label": "Women"
+  }, {
+    "value": "2",
+    "label": "Men"
+  }, {
+    "value": "3",
+    "label": "Baby・Kids"
+  }, {
+    "value": "4",
+    "label": "Home"
+  }, {
+    "value": "5",
+    "label": "Toy・Hobby"
+  }, {
+    "value": "6",
+    "label": "Book"
+  }, {
+    "value": "7",
+    "label": "Game"
+  }, {
+    "value": "8",
+    "label": "Handmade craft"
+  }],
+  "1": [{
+    "value": "11",
+    "label": "All"
+  }, {
+    "value": "12",
+    "label": "Tops"
+  }, {
+    "value": "13",
+    "label": "Shoes"
+  }],
+  "2": [{
+    "value": "21",
+    "label": "All"
+  }, {
+    "value": "22",
+    "label": "Tops"
+  }, {
+    "value": "23",
+    "label": "Shoes"
+  }],
+  "3": [{
+    "value": "31",
+    "label": "Boys shirts"
+  }, {
+    "value": "32",
+    "label": "Girls shirts"
+  }, {
+    "value": "33",
+    "label": "Toy"
+  }, {
+    "value": "34",
+    "label": "Gear"
+  }, {
+    "value": "35",
+    "label": "Feeding"
+  }],
+  "4": [{
+    "value": "41",
+    "label": "Kitchen"
+  }, {
+    "value": "42",
+    "label": "Sofa"
+  }, {
+    "value": "43",
+    "label": "Chain"
+  }, {
+    "value": "44",
+    "label": "Desk"
+  }, {
+    "value": "45",
+    "label": "Furniture"
+  }],
+  "5": [{
+    "value": "51",
+    "label": "Toy"
+  }, {
+    "value": "52",
+    "label": "Anime goods"
+  }, {
+    "value": "53",
+    "label": "Trading cards"
+  }, {
+    "value": "54",
+    "label": "Art"
+  }, {
+    "value": "55",
+    "label": "Vintage"
+  }],
+  "itemConditionList": [{
+    "value": "1",
+    "label": "New"
+  }, {
+    "value": "2",
+    "label": "Almost new"
+  }, {
+    "value": "3",
+    "label": "Normal"
+  }, {
+    "value": "4",
+    "label": "Bad"
+  }]
+}

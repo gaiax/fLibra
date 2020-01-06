@@ -1,0 +1,33 @@
+# Frontend
+
+```
+cd frontend 
+```
+
+## config 
+Plase set your firebase project key in config.
+
+```.env
+libraMnemonic = "birth easily sword divert scale main physical dune menu exist marriage trophy true quick nerve clown equal short assist taste flame grant vintage erase"
+apiKey = AIzaSyAIqQE55...i0UrqM-miX-k
+authDomain = flibra...-80092.firebaseapp.com
+databaseURL = https://flibra....firebaseio.com
+projectId = flibra...-80092
+storageBucket = gs://flibra...-80092.appspot.com
+messagingSenderId = 2472...9401
+appId = 1:247244459401:web:af0d3f277789fdfcfe2558
+web3Endpoint = http://0.0.0.0:8545
+URL = http://localhost:3000
+```
+
+```
+npm i 
+npm run dev
+```
+
+## Lint
+
+```
+# Code format will be fixed automatically when you commit.
+$ npm run lint
+```

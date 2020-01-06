@@ -1,0 +1,22 @@
+{
+  "name": "flibra-elasticsearch",
+  "version": "1.0.0",
+  "description": "My wonderful Nuxt.js project",
+  "author": "yosuke.aramaki",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "dotenv": "6.2.0",
+    "JQDeferred": "~1.9.1",
+    "colors": "~0.6.2",
+    "firebase": "^7.2.1",
+    "firebase-admin": "^5.12.1",
+    "elasticsearch": "^15.0.0"
+  },
+  "devDependencies": {}
+}
