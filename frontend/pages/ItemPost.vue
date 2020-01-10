@@ -131,21 +131,13 @@ export default {
         .deploy({
           data: ItemDetail.bytecode,
           arguments: [
-            'sample',
-            'QmSYuVwLoxKWaUWA9EpWZuPZDMJ9dVqpH4mGeyF82jNABD',
-            150,
-            'detailText',
-            2,
-            1
+            this.form.itemName,
+            result[0].hash,
+            this.form.price,
+            this.form.itemDetailText,
+            Number(this.form.category),
+            Number(this.form.itemCondition)
           ]
-          // arguments: [
-          //   this.form.itemName,
-          //   result[0].hash,
-          //   this.form.price,
-          //   this.form.itemDetailText,
-          //   Number(this.form.category),
-          //   Number(this.form.itemCondition)
-          // ]
         })
         .encodeABI()
 
