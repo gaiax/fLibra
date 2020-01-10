@@ -4,8 +4,9 @@
       <h1><img src="~assets/img/flibra.svg" class="logo" />FLIBRA</h1>
     </nuxt-link>
     <p>
-      This is a demo website. You cannot trade real items.<br />
-      Please look at application workflow from here.
+      This is a demo website. <span style="font-size: 15px; font-weight: 600;">You cannot trade real items</span>.<br />
+      Please look at application instruction from
+      <a class="document" href="https://medium.com/@gnx.vw903/flea-market-using-libra-and-ethereum-c063e5e5723c" target="_blank">here</a>.
     </p>
     <nav>
       <div v-if="libraAddress == ''">
@@ -97,6 +98,13 @@ nav {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.document {
+  font-size: 15px;
+  font-weight: 600;
+  color: blue;
+  text-decoration: underline;
 }
 
 p {
