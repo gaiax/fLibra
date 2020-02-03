@@ -96,7 +96,7 @@
     <hr />
     <h2>Review</h2>
     <Review />
-    <ItemPostButton />
+    <ItemPostButton :link="link" :subLink="subLink" />
   </div>
 </template>
 
@@ -113,7 +113,9 @@ export default {
     PostItemsList,
     PurchaseItemsList,
     Review,
-    ItemPostButton
+    ItemPostButton,
+    link: '/',
+    subLink: '/'
   },
   data: function() {
     return {
@@ -194,11 +196,14 @@ export default {
           userName: '',
           userIcon: ''
         }
+        this.link = ''
+        this.subLink = '/myPage'
       } else {
         this.user = {
           userName: userInfo.userName,
           userIcon: 'https://ipfs.io/ipfs/' + userInfo.userIcon
         }
+        this.link = '/itemPost'
       }
 
       const client = new LibraClient({

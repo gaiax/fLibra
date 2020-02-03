@@ -23,10 +23,9 @@
 
 <script>
 export default {
+  props: ['link', 'subLink'],
   data: function() {
     return {
-      link: '/',
-      subLink: '/',
       visibleSignIn: false,
       visibleMypage: false
     }
@@ -41,22 +40,6 @@ export default {
         }
       }
     }
-  },
-  async created() {
-    setTimeout(async () => {
-      const userInfo = await this.$flibraContract.methods
-        .getUserInfo(this.$store.state.user.libraAddress)
-        .call()
-      if (this.$store.state.user.libraAddress == '') {
-        this.link = ''
-        this.subLink = '/signin'
-      } else if (userInfo.userAddress == '') {
-        this.link = ''
-        this.subLink = '/myPage'
-      } else {
-        this.link = '/itemPost'
-      }
-    }, 1)
   }
 }
 </script>

@@ -2,7 +2,7 @@
   <div>
     <SearchFunction />
     <ItemList :items="onSaleItems" />
-    <ItemPostButton />
+    <ItemPostButton :link="link" :subLink="subLink" />
   </div>
 </template>
 
@@ -22,7 +22,9 @@ export default {
   },
   data: function() {
     return {
-      onSaleItems: []
+      onSaleItems: [],
+      link: '/',
+      subLink: '/'
     }
   },
   async created() {
@@ -45,6 +47,19 @@ export default {
         }
       })
     })
+    
+    const userInfo = await this.$flibraContract.methods
+        .getUserInfo(this.$store.state.user.libraAddress)
+        .call()
+      if (this.$store.state.user.libraAddress == '') {
+        this.link = ''
+        this.subLink = '/signin'
+      } else if (userInfo.userAddress == '') {
+        this.link = ''
+        this.subLink = '/myPage'
+      } else {
+        this.link = '/itemPost'
+      }
   }
 }
 </script>
