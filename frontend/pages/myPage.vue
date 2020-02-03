@@ -114,8 +114,6 @@ export default {
     PurchaseItemsList,
     Review,
     ItemPostButton,
-    link: '/',
-    subLink: '/'
   },
   data: function() {
     return {
@@ -127,7 +125,9 @@ export default {
         buffer: ''
       },
       libraAddress: '',
-      libraBalance: ''
+      libraBalance: '',
+      link: '/',
+      subLink: '/'
     }
   },
   methods: {
@@ -180,6 +180,7 @@ export default {
         message: 'Registered your user info',
         type: 'success'
       })
+      this.link = '/itemPost'
       this.visibleCreateUser = false
       this.loading = false
     }

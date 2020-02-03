@@ -49,17 +49,17 @@ export default {
     })
     
     const userInfo = await this.$flibraContract.methods
-        .getUserInfo(this.$store.state.user.libraAddress)
-        .call()
-      if (this.$store.state.user.libraAddress == '') {
-        this.link = ''
-        this.subLink = '/signin'
-      } else if (userInfo.userAddress == '') {
-        this.link = ''
-        this.subLink = '/myPage'
-      } else {
-        this.link = '/itemPost'
-      }
+      .getUserInfo(this.$store.state.user.libraAddress)
+      .call()
+    if (this.$store.state.user.libraAddress == '') {
+      this.link = ''
+      this.subLink = '/signin'
+    } else if (userInfo.userAddress == '') {
+      this.link = ''
+      this.subLink = '/myPage'
+    } else {
+      this.link = '/itemPost'
+    }
   }
 }
 </script>
