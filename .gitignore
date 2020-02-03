@@ -94,3 +94,10 @@ sw.*
 
 # blockchain files
 flibrachain/
+
+# firebase related
+.firebase
+.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
