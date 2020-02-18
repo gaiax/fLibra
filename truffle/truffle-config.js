@@ -33,12 +33,12 @@ module.exports = {
 
   // Configure your compilers
   compilers: {
-    solc: {
-      version: "native",
-      optimizer: {
-        enabled: true,
-        runs: 200
-      }
-    }
+    // solc: {
+    //   version: "native",
+    //   optimizer: {
+    //     enabled: true,
+    //     runs: 200
+    //   }
+    // }
   }
 }
