@@ -101,8 +101,8 @@
 </template>
 
 <script>
-import PostItemsList from '@/components/UserPage/PostItemsList'
-import PurchaseItemsList from '@/components/UserPage/PurchaseItemsList'
+import PostItemsList from '@/components/user/PostItemsList'
+import PurchaseItemsList from '@/components/user/PurchaseItemsList'
 import ReviewItem from '@/components/ReviewItem'
 import ItemPostButton from '@/components/ItemPostButton'
 import { LibraClient, LibraNetwork } from 'kulap-libra'
