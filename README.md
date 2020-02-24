@@ -226,8 +226,8 @@ https://github.com/gaiax/fLibra/tree/master/flibrachain
 
 Move on truffle directory and install dependencies.
 ```
-cd truffle
-npm i
+$ cd truffle
+$ npm i
 ```
 
 ### Config
@@ -239,8 +239,7 @@ Please use your mnemonic phrase.
 
 ### Deploy contract 
 ```
-$ truffle console --network local
-truffle(local)> migrate --reset
+$ npm start
 ```
 If you successfully deployed contract, you can find JSON file in "../frontend/abis/"
 
