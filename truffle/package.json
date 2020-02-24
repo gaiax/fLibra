@@ -1,8 +1,5 @@
 {
   "name": "flibra-truffle",
-  "version": "1.0.0",
-  "description": "My wonderful Nuxt.js project",
-  "author": "yosuke.aramaki",
   "private": true,
   "scripts": {
     "dev": "nuxt",
