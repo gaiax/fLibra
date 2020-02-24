@@ -95,7 +95,7 @@
     <PurchaseItemsList />
     <hr />
     <h2>Review</h2>
-    <Review />
+    <ReviewItem />
     <ItemPostButton :link="link" :subLink="subLink" />
   </div>
 </template>
@@ -103,7 +103,7 @@
 <script>
 import PostItemsList from '@/components/UserPage/PostItemsList'
 import PurchaseItemsList from '@/components/UserPage/PurchaseItemsList'
-import Review from '@/components/Review'
+import ReviewItem from '@/components/ReviewItem'
 import ItemPostButton from '@/components/ItemPostButton'
 import { LibraClient, LibraNetwork } from 'kulap-libra'
 import firestore from '~/plugins/firestore'
@@ -112,7 +112,7 @@ export default {
   components: {
     PostItemsList,
     PurchaseItemsList,
-    Review,
+    ReviewItem,
     ItemPostButton
   },
   data: function() {

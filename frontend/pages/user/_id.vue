@@ -20,17 +20,17 @@
         </p>
       </div>
     </div>
-    <Review />
+    <ReviewItem />
   </div>
 </template>
 
 <script>
-import Review from '@/components/Review'
+import ReviewItem from '@/components/ReviewItem'
 import firestore from '~/plugins/firestore'
 
 export default {
   components: {
-    Review
+    ReviewItem
   },
   data: function() {
     return {
