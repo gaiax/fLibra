@@ -2,10 +2,7 @@
   "name": "flibra-truffle",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "start": "truffle migrate --reset --network local"
   },
   "dependencies": {
     "dotenv": "6.2.0",
