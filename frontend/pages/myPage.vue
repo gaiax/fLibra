@@ -113,7 +113,7 @@ export default {
     PostItemsList,
     PurchaseItemsList,
     Review,
-    ItemPostButton,
+    ItemPostButton
   },
   data: function() {
     return {

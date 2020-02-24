@@ -4,9 +4,17 @@
       <h1><img src="~assets/img/flibra.svg" class="logo" />FLIBRA</h1>
     </nuxt-link>
     <p>
-      This is a demo website. <span style="font-size: 15px; font-weight: 600;">DO NOT trade real items</span>.<br />
+      This is a demo website.
+      <span style="font-size: 15px; font-weight: 600;"
+        >DO NOT trade real items</span
+      >.<br />
       Please read application instruction from
-      <a class="document" href="https://medium.com/@gnx.vw903/flea-market-using-libra-and-ethereum-c063e5e5723c" target="_blank">here</a>.
+      <a
+        class="document"
+        href="https://medium.com/@gnx.vw903/flea-market-using-libra-and-ethereum-c063e5e5723c"
+        target="_blank"
+        >here</a
+      >.
     </p>
     <nav>
       <div v-if="libraAddress == ''">
@@ -109,7 +117,7 @@ nav {
 
 p {
   font-size: 13px;
-  padding-left: 3%; 
+  padding-left: 3%;
 }
 
 a {

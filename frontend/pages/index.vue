@@ -47,7 +47,7 @@ export default {
         }
       })
     })
-    
+
     setTimeout(async () => {
       const userInfo = await this.$flibraContract.methods
         .getUserInfo(this.$store.state.user.libraAddress)
