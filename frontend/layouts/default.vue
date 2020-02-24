@@ -1,15 +1,15 @@
 <template>
   <div>
-    <Header />
+    <HeaderBar />
     <div class="container"><nuxt /></div>
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
+import HeaderBar from '@/components/HeaderBar'
 export default {
   components: {
-    Header
+    HeaderBar
   }
 }
 </script>
