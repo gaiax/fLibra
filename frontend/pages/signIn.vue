@@ -8,10 +8,8 @@
       </p>
       <p>
         If you don't have libra wallet, please create your libra wallet<br />
-        <nuxt-link
-          to="/createLibraWallet"
-          no-prefetch
-        > >> create libra wallet
+        <nuxt-link to="/createLibraWallet" no-prefetch>
+          >> create libra wallet
         </nuxt-link>
       </p>
       <div>
