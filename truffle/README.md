@@ -10,6 +10,6 @@ truffleEndpoint = http://0.0.0.0:8545
 ## コントラクトをデプロイ
 
 ```
-$ truffle console --network local
-truffle(local)> migrate --reset
+$ npm i
+$ npm start
 ```
