@@ -14,7 +14,7 @@
         ></el-input>
       </el-form-item>
       <el-form-item label="Photo" required>
-        <input type="file" placeholder="Please input" @change="captureFile" />
+        <input type="file" accept=".jpg, .jpeg, .png" placeholder="Please input" @change="captureFile" />
       </el-form-item>
       <el-form-item label="Price" required>
         <el-input
