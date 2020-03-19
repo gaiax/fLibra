@@ -10,7 +10,7 @@ https://flibra.gaiax-blockchain.com/
 https://medium.com/@gnx.vw903/flea-market-using-libra-and-ethereum-c063e5e5723c
 
 
-##  FLibra architect
+##  FLIBRA architecture
 ![architect](images/architect.png)
 
 
